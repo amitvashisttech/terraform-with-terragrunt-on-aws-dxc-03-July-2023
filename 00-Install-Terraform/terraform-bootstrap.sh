@@ -8,8 +8,8 @@
 
 # Download Terraform
 echo "[TASK 2] Install Terraform Packages"
-wget https://releases.hashicorp.com/terraform/1.4.6/terraform_1.4.6_linux_amd64.zip -P /root/ >/dev/null 2>&1
-unzip /root/terraform_1.4.6_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.5.2/terraform_1.5.2_linux_amd64.zip -P /root/ >/dev/null 2>&1
+unzip /root/terraform_1.5.2_linux_amd64.zip
 mv terraform /usr/bin/
 chmod +x /usr/bin/terraform
 terraform --version
