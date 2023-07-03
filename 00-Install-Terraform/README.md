@@ -5,7 +5,7 @@
 ## 1. Install Terraform 
 ```
 git clone https://github.com/amitvashisttech/terraform-with-terragrunt-on-aws-dxc-03-July-2023.git
-cd terraform-with-terragrunt-on-aws-dxc-03-July-2023/00-Install-Terraform
+cd terraform-with-terragrunt-on-aws-dxc-03-July-2023/
 ```
 
 ```
