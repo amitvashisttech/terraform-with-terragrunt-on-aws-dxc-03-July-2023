@@ -9,7 +9,7 @@ cd terraform-with-terragrunt-on-aws-dxc-03-July-2023/00-Install-Terraform
 ```
 
 ```
-sh 00-Install-Terraform
+sh 00-Install-Terraform/terraform-bootstrap.sh
 ```
 
 ```
