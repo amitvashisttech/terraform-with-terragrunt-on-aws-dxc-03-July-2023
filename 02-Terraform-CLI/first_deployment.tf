@@ -7,10 +7,11 @@ provider "aws" {
 
 // This is my AWS EC2 Provsion Block 
 resource "aws_instance" "web" {
+  count = 40 
   ami           = "ami-03f38e546e3dc59e1"
   instance_type = "t2.micro"
   tags = {
-    Name = "WebApp"
+    Name = "AV-${count.index}"
   }
 }
 
